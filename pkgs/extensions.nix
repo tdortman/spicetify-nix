@@ -169,11 +169,6 @@ let
     name = "addToQueueTop.js";
   };
 
-  oneko = {
-    src = sources.onekoSrc;
-    name = "oneko.js";
-  };
-
   starRatings = {
     src = "${sources.starRatingsSrc}/dist";
     name = "star-ratings.js";
@@ -361,7 +356,6 @@ in
       volumePercentage
       oldSidebar
       addToQueueTop
-      oneko
       starRatings
       queueTime
       coverAmbience
@@ -402,7 +396,6 @@ in
 // (mkExtAlias "sectionMarker.js" sectionMarker)
 // (mkExtAlias "skipAfterTimestamp.js" skipAfterTimestamp)
 // (mkExtAlias "beautifulLyrics.js" beautifulLyrics)
-// (mkExtAlias "oneko.js" oneko)
 // (mkExtAlias "starRatings.js" starRatings)
 // (mkExtAlias "queueTime.js" queueTime)
 // (mkExtAlias "coverAmbience.js" coverAmbience)
