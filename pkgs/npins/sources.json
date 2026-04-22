@@ -371,13 +371,13 @@
       "type": "Git",
       "repository": {
         "type": "GitHub",
-        "owner": "LucasBares",
+        "owner": "Taeko-ar",
         "repo": "spicetify-last-fm"
       },
       "branch": "main",
       "submodules": false,
       "revision": "2726552af6d617f8010306e352e1ad17ff3bfeea",
-      "url": "https://github.com/LucasBares/spicetify-last-fm/archive/2726552af6d617f8010306e352e1ad17ff3bfeea.tar.gz",
+      "url": "https://github.com/Taeko-ar/spicetify-last-fm/archive/2726552af6d617f8010306e352e1ad17ff3bfeea.tar.gz",
       "hash": "sha256-KguR4ZJ4hPQfyMuot9R2nwE2jVlosek8Y8eAouwjurk="
     },
     "localFilesSrc": {

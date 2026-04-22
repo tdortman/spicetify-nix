@@ -177,7 +177,7 @@ in
               repo = "spicetify-last-fm";
               rev = "d2f1d3c1e286d789ddfa002f162405782d822c55";
               hash = "sha256-/C4Y3zuSAEwhMXCRG2/4b5oWfGz/ij6wu0B+CpuJKXs=";
-            }) + /src;
+            }) + /dist;
 
             name = "lastfm.js";
           }
