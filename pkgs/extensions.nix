@@ -34,7 +34,7 @@ let
     name = "spotifyGenres.js";
   };
   lastfm = {
-    src = "${sources.lastfmSrc}/src";
+    src = "${sources.lastfmSrc}/dist";
     name = "lastfm.js";
   };
 
