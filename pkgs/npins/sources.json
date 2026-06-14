@@ -402,9 +402,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "4bbd357bf8d05228cacdb87b73d555444a34aa05",
-      "url": "https://gitlab.com/api/v4/projects/sanoojes%2Fspicetify-lucid/repository/archive.tar.gz?sha=4bbd357bf8d05228cacdb87b73d555444a34aa05",
-      "hash": "sha256-Yj3+opEh16aJslCT9f2GTTEwLUk9A7bO/6i+LHk/AVA="
+      "revision": "5c28e9f955d5ca84a82d06084cc6652e5655ea2d",
+      "url": "https://gitlab.com/api/v4/projects/sanoojes%2Fspicetify-lucid/repository/archive.tar.gz?sha=5c28e9f955d5ca84a82d06084cc6652e5655ea2d",
+      "hash": "sha256-B/gAm4wd520OZMyimj8Bes4UxYcZ/++100a+R4T7a1M="
     },
     "marketplaceSrc": {
       "type": "Git",
@@ -584,9 +584,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "2205f0406307cd567f192767dcf8524c5644debb",
-      "url": "https://github.com/hoeci/sort-play/archive/2205f0406307cd567f192767dcf8524c5644debb.tar.gz",
-      "hash": "sha256-+/MU1Vy1zfINAoFTN/CcweQv4s+ouLDwMetnF0fDpNA="
+      "revision": "3ea074f1205f8ff28ac5611e218ab8e7442a9bb3",
+      "url": "https://github.com/hoeci/sort-play/archive/3ea074f1205f8ff28ac5611e218ab8e7442a9bb3.tar.gz",
+      "hash": "sha256-5dbh0xrmUiaKggifN8nIJpqMGOcTsjLK1hxgcsxyJUE="
     },
     "spicyLyricsSrc": {
       "type": "GitRelease",
