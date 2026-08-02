@@ -22,9 +22,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "b85500bb52c0b7971b1424c372bac402d8cb6ef9",
-      "url": "https://github.com/Reginald-Gillespie/Spotify-AI-Band-Blocker/archive/b85500bb52c0b7971b1424c372bac402d8cb6ef9.tar.gz",
-      "hash": "sha256-21PHghM1GQ2epOP+XV/Fke2wBAVXRwHNU6wFVBKRegE="
+      "revision": "4bda9c3504bfffda9ed7a33b9296cd1b56c9a66c",
+      "url": "https://github.com/Reginald-Gillespie/Spotify-AI-Band-Blocker/archive/4bda9c3504bfffda9ed7a33b9296cd1b56c9a66c.tar.gz",
+      "hash": "sha256-dAnCAWHvqr+6gua5WxmOeudAN9w1qvNve/Irvv04B/M="
     },
     "aimarekinSrc": {
       "type": "Git",
@@ -389,9 +389,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "2bed29baaf20ea4f7832a231272ab60c87e4c63e",
-      "url": "https://gitlab.com/api/v4/projects/sanoojes%2Fspicetify-lucid/repository/archive.tar.gz?sha=2bed29baaf20ea4f7832a231272ab60c87e4c63e",
-      "hash": "sha256-J2DlDHs1CHQCfMSwqDAtUzqukWdI3/kQTXl6BoRsBWc="
+      "revision": "c9446c6cc0846ad8f9d0cb3ad289a886249a04f8",
+      "url": "https://gitlab.com/api/v4/projects/sanoojes%2Fspicetify-lucid/repository/archive.tar.gz?sha=c9446c6cc0846ad8f9d0cb3ad289a886249a04f8",
+      "hash": "sha256-/Gb4ZVi0KeySqgZsF9/vspPZYtdM2ha3YPshkz+SpWE="
     },
     "marketplaceSrc": {
       "type": "Git",
@@ -415,9 +415,9 @@
       },
       "branch": "dist",
       "submodules": false,
-      "revision": "abd9516ec83df280c3625b141455c1221c22c7c9",
-      "url": "https://github.com/theRealPadster/name-that-tune/archive/abd9516ec83df280c3625b141455c1221c22c7c9.tar.gz",
-      "hash": "sha256-n5L6MMf/sU/lX3vGFknaRSBIPhklX3vp8PMusEKpzEA="
+      "revision": "1a55d58bfc9f1c5f7bb16e4b953f4805e24b5f11",
+      "url": "https://github.com/theRealPadster/name-that-tune/archive/1a55d58bfc9f1c5f7bb16e4b953f4805e24b5f11.tar.gz",
+      "hash": "sha256-BfCiZmwyPQM2NurXe4gV4B9XKO9wYMkKGkwgyjWNsBk="
     },
     "ncsVisualizerSrc": {
       "type": "Git",
@@ -571,9 +571,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "d5f99d5439fad5bcfe357fb836031cdeb1163b95",
-      "url": "https://github.com/hoeci/sort-play/archive/d5f99d5439fad5bcfe357fb836031cdeb1163b95.tar.gz",
-      "hash": "sha256-FrRaUU9CKIv5c5vJDFEwbbFt8c40PeMfysD2gns2O4c="
+      "revision": "294b323397f2a3e1d163a47acbc4b549f254e745",
+      "url": "https://github.com/hoeci/sort-play/archive/294b323397f2a3e1d163a47acbc4b549f254e745.tar.gz",
+      "hash": "sha256-aq9/m+JrmlcKn8ATf27wyLGdup7Ncf5Rt302CXfkf+I="
     },
     "spicyLyricsSrc": {
       "type": "GitRelease",
@@ -586,10 +586,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "6.2.3",
-      "revision": "0d87480ef8347cf48d4b10b47cc20fd6eecd7b74",
-      "url": "https://api.github.com/repos/Spikerko/spicy-lyrics/tarball/refs/tags/6.2.3",
-      "hash": "sha256-Ejn7vwNRQkSyYp1J0ZqGd/Us0y6PKt9muYmdx1VEydg="
+      "version": "6.3.0",
+      "revision": "03489a4505dd25cbe761a652fc7a1cc6f70608ea",
+      "url": "https://api.github.com/repos/Spikerko/spicy-lyrics/tarball/refs/tags/6.3.0",
+      "hash": "sha256-wyq1Gi7aYCUC0Tm9aJQJ3fqt/RLdL2ZEqvMqiP0ez94="
     },
     "starRatingsSrc": {
       "type": "Git",
