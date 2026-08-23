@@ -428,9 +428,9 @@
       },
       "branch": "dist",
       "submodules": false,
-      "revision": "93ff4c4e84080848bd22a1dd62e04a212c6d9b71",
-      "url": "https://github.com/Konsl/spicetify-ncs-visualizer/archive/93ff4c4e84080848bd22a1dd62e04a212c6d9b71.tar.gz",
-      "hash": "sha256-9mdORE+9MKLGyQYQ2P3So8n3IiRilzA1t11Mav/0JJI="
+      "revision": "0b638afc56bdb0ece843c9569ca658a81ade6d53",
+      "url": "https://github.com/Konsl/spicetify-ncs-visualizer/archive/0b638afc56bdb0ece843c9569ca658a81ade6d53.tar.gz",
+      "hash": "sha256-d48tFEcsBoMTjv+TPsfwwVjyXhTlcQK9uunaZjPkVWk="
     },
     "nordSrc": {
       "type": "Git",
