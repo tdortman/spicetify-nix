@@ -29,10 +29,6 @@ let
     src = sources.historySrc;
     name = "historyShortcut.js";
   };
-  betterGenres = {
-    src = sources.betterGenresSrc;
-    name = "spotifyGenres.js";
-  };
   lastfm = {
     src = "${sources.lastfmSrc}/src";
     name = "lastfm.js";
@@ -345,7 +341,6 @@ in
       volumeProfiles
       autoVolume
       history
-      betterGenres
       lastfm
       hidePodcasts
       adblockify
@@ -385,7 +380,6 @@ in
 // (mkExtAlias "volumeProfiles.js" volumeProfiles)
 // (mkExtAlias "copyToClipboard.js" copyToClipboard)
 // (mkExtAlias "songStats.js" songStats)
-// (mkExtAlias "betterGenres.js" betterGenres)
 // (mkExtAlias "featureShuffle.js" featureShuffle)
 // (mkExtAlias "playlistIcons.js" playlistIcons)
 // (mkExtAlias "powerBar.js" powerBar)
