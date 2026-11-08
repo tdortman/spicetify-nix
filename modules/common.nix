@@ -12,7 +12,7 @@ self:
       modules = [
         (import ./options.nix self)
       ]
-      ++ lib.optional pkgs.stdenv.isLinux ./linuxOpts.nix;
+      ++ lib.optional pkgs.stdenv.hostPlatform.isLinux ./linuxOpts.nix;
     };
     default = { };
   };

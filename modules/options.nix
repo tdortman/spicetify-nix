@@ -344,10 +344,10 @@ in
             # compose the configuration as well as options required by extensions and
             # config.config.xpui into one set
             config-xpui = xpui;
-            wayland = if pkgs.stdenv.isLinux then config.wayland else null;
+            wayland = if pkgs.stdenv.hostPlatform.isLinux then config.wayland else null;
           };
         in
-        if pkgs.stdenv.isLinux && config.windowManagerPatch then
+        if pkgs.stdenv.hostPlatform.isLinux && config.windowManagerPatch then
           (config.spotifywmPackage.override { spotify = spicedSpotify'; }).overrideAttrs (old: {
             passthru = (old.passthru or { }) // spicedSpotify'.passthru;
           })

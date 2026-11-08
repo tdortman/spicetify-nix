@@ -72,9 +72,9 @@ lib.makeOverridable (
 
           # replace the spotify path with the current derivation's path
           sed "s|__SPOTIFY__|${
-            if stdenv.isLinux then
+            if stdenv.hostPlatform.isLinux then
               "$out/share/spotify"
-            else if stdenv.isDarwin then
+            else if stdenv.hostPlatform.isDarwin then
               "$out/Applications/Spotify.app/Contents/Resources"
             else
               throw ""
@@ -87,7 +87,7 @@ lib.makeOverridable (
           ${lib.getExe spicetify-cli} --no-restart backup apply
         '';
       }
-      // lib.optionalAttrs (stdenv.isLinux && wayland != null) {
+      // lib.optionalAttrs (stdenv.hostPlatform.isLinux && wayland != null) {
 
         fixupPhase = ''
           runHook preFixup

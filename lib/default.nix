@@ -11,7 +11,7 @@
           (import ../modules/options.nix self)
           module
         ]
-        ++ lib.optional pkgs.stdenv.isLinux ../modules/linuxOpts.nix;
+        ++ lib.optional pkgs.stdenv.hostPlatform.isLinux ../modules/linuxOpts.nix;
       };
       failedAssertions = map (x: x.message) (builtins.filter (x: !x.assertion) evaled.config.assertions);
       baseSystemAssertWarn =
