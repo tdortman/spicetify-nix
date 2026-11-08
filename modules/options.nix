@@ -3,7 +3,6 @@ self:
   lib,
   pkgs,
   config,
-  options,
   ...
 }:
 let
@@ -177,7 +176,7 @@ in
               repo = "spicetify-last-fm";
               rev = "d2f1d3c1e286d789ddfa002f162405782d822c55";
               hash = "sha256-/C4Y3zuSAEwhMXCRG2/4b5oWfGz/ij6wu0B+CpuJKXs=";
-            }) + /src;
+            }) + /dist;
 
             name = "lastfm.js";
           }
@@ -261,8 +260,8 @@ in
 
     # If you have to use this you should probably make a PR instead
     updateXpui = lib.mkOption {
-      type = lib.types.either (lib.types.attrsOf lib.types.str) (
-        lib.types.functionTo (lib.types.attrsOf lib.types.str)
+      type = lib.types.either (lib.types.attrsOf lib.types.anything) (
+        lib.types.functionTo (lib.types.attrsOf lib.types.anything)
       );
       default = { };
       internal = true;
@@ -345,10 +344,10 @@ in
             # compose the configuration as well as options required by extensions and
             # config.config.xpui into one set
             config-xpui = xpui;
-            wayland = if pkgs.stdenv.isLinux then config.wayland else null;
+            wayland = if pkgs.stdenv.hostPlatform.isLinux then config.wayland else null;
           };
         in
-        if pkgs.stdenv.isLinux && config.windowManagerPatch then
+        if pkgs.stdenv.hostPlatform.isLinux && config.windowManagerPatch then
           (config.spotifywmPackage.override { spotify = spicedSpotify'; }).overrideAttrs (old: {
             passthru = (old.passthru or { }) // spicedSpotify'.passthru;
           })

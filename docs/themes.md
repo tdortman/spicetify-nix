@@ -177,3 +177,8 @@ A minimal and dynamic Bloom-inspired theme for Spicetify.
 
 A translucent spicetify theme. [Source](https://github.com/Astromations/Hazy)
 ![preview](https://github.com/Astromations/Hazy/blob/main/hazy_home.png?raw=true)
+
+### tokyonight
+
+A clean theme based on the famous Tokyo Night VSCode colorscheme. [Source](https://github.com/evening-hs/Spotify-Tokyo-Night-Theme)
+![preview](https://github.com/evening-hs/Spotify-Tokyo-Night-Theme/blob/main/night.png?raw=true)

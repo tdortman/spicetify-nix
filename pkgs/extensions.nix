@@ -30,7 +30,7 @@ let
     name = "historyShortcut.js";
   };
   lastfm = {
-    src = "${sources.lastfmSrc}/src";
+    src = "${sources.lastfmSrc}/dist";
     name = "lastfm.js";
   };
 
@@ -163,6 +163,11 @@ let
   addToQueueTop = {
     src = "${sources.addToTopSrc}/addToQueueTop";
     name = "addToQueueTop.js";
+  };
+
+  oneko = {
+    src = sources.onekoSrc;
+    name = "oneko.js";
   };
 
   starRatings = {
@@ -351,6 +356,7 @@ in
       volumePercentage
       oldSidebar
       addToQueueTop
+      oneko
       starRatings
       queueTime
       coverAmbience
@@ -390,6 +396,7 @@ in
 // (mkExtAlias "sectionMarker.js" sectionMarker)
 // (mkExtAlias "skipAfterTimestamp.js" skipAfterTimestamp)
 // (mkExtAlias "beautifulLyrics.js" beautifulLyrics)
+// (mkExtAlias "oneko.js" oneko)
 // (mkExtAlias "starRatings.js" starRatings)
 // (mkExtAlias "queueTime.js" queueTime)
 // (mkExtAlias "coverAmbience.js" coverAmbience)

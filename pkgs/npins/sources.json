@@ -345,13 +345,13 @@
       "type": "Git",
       "repository": {
         "type": "GitHub",
-        "owner": "LucasBares",
+        "owner": "Taeko-ar",
         "repo": "spicetify-last-fm"
       },
       "branch": "main",
       "submodules": false,
       "revision": "2726552af6d617f8010306e352e1ad17ff3bfeea",
-      "url": "https://github.com/LucasBares/spicetify-last-fm/archive/2726552af6d617f8010306e352e1ad17ff3bfeea.tar.gz",
+      "url": "https://github.com/Taeko-ar/spicetify-last-fm/archive/2726552af6d617f8010306e352e1ad17ff3bfeea.tar.gz",
       "hash": "sha256-KguR4ZJ4hPQfyMuot9R2nwE2jVlosek8Y8eAouwjurk="
     },
     "localFilesSrc": {
@@ -483,6 +483,19 @@
       "revision": "253ae45d2cac2dc3d92a43193ea8f6d9e7e1d3aa",
       "url": "https://github.com/getomni/spicetify/archive/253ae45d2cac2dc3d92a43193ea8f6d9e7e1d3aa.tar.gz",
       "hash": "sha256-5II+4096fOcCA7J4XZfIHSse+3/YJ+EY5KW3GXl+dn8="
+    },
+    "onekoSrc": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "kyrie25",
+        "repo": "spicetify-oneko"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "c1fb39b0239ebe5b74f6a645e2945a122b6ea7db",
+      "url": "https://github.com/kyrie25/spicetify-oneko/archive/c1fb39b0239ebe5b74f6a645e2945a122b6ea7db.tar.gz",
+      "hash": "sha256-iUC8Nkc9Momb0Ja/K+lovwd7YWwxf33V9gcOg9D5+Iw="
     },
     "pithayaAppsSrc": {
       "type": "Git",
@@ -629,6 +642,19 @@
       "revision": "9454b55e454fb354ecedcf3f72c5a4f0a9671651",
       "url": "https://github.com/Theblockbuster1/spicetify-extensions/archive/9454b55e454fb354ecedcf3f72c5a4f0a9671651.tar.gz",
       "hash": "sha256-Ifh6SM4Fv1KACV9oJX6/s3HyFjuUNo3hajaS3vdv0pE="
+    },
+    "tokyoNightSrc": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "evening-hs",
+        "repo": "Spotify-Tokyo-Night-Theme"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "d88ca06eaeeb424d19e0d6f7f8e614e4bce962be",
+      "url": "https://github.com/evening-hs/Spotify-Tokyo-Night-Theme/archive/d88ca06eaeeb424d19e0d6f7f8e614e4bce962be.tar.gz",
+      "hash": "sha256-cLj9v8qtHsdV9FfzV2Qf4pWO8AOBXu51U/lUMvdEXAk="
     },
     "waddlePlaysSrc": {
       "type": "Git",
